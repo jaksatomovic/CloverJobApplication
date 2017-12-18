@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58C2DE4B1903FC465A4EC607 /* Pods_CloverJobApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4407A6DBEB4B930030F5B8 /* Pods_CloverJobApplication.framework */; };
 		60B14FFA1FBCBA9C00542274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B14FF91FBCBA9C00542274 /* AppDelegate.swift */; };
-		60B14FFC1FBCBA9C00542274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B14FFB1FBCBA9C00542274 /* ViewController.swift */; };
-		60B14FFF1FBCBA9C00542274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B14FFD1FBCBA9C00542274 /* Main.storyboard */; };
+		60B14FFC1FBCBA9C00542274 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B14FFB1FBCBA9C00542274 /* LoginController.swift */; };
 		60B150011FBCBA9C00542274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B150001FBCBA9C00542274 /* Assets.xcassets */; };
-		60B150041FBCBA9C00542274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B150021FBCBA9C00542274 /* LaunchScreen.storyboard */; };
+		60B1500C1FBCBB5800542274 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B1500B1FBCBB5800542274 /* Splash.storyboard */; };
+		60B1500E1FBCBC4A00542274 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1500D1FBCBC4A00542274 /* UIView+Anchors.swift */; };
+		60B150101FBCD17400542274 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1500F1FBCD17400542274 /* ChatController.swift */; };
+		60B150121FBCD27100542274 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B150111FBCD27100542274 /* Constants.swift */; };
+		60B69E741FBCFECC009CBABB /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B69E731FBCFECC009CBABB /* Repo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60B14FF61FBCBA9C00542274 /* CloverJobApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloverJobApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B14FF91FBCBA9C00542274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60B14FFB1FBCBA9C00542274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		60B14FFE1FBCBA9C00542274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60B14FFB1FBCBA9C00542274 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		60B150001FBCBA9C00542274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		60B150031FBCBA9C00542274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60B150051FBCBA9C00542274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B1500B1FBCBB5800542274 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		60B1500D1FBCBC4A00542274 /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		60B1500F1FBCD17400542274 /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		60B150111FBCD27100542274 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		60B69E731FBCFECC009CBABB /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		7047858D5021578AA4FFEB2A /* Pods-CloverJobApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloverJobApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloverJobApplication/Pods-CloverJobApplication.release.xcconfig"; sourceTree = "<group>"; };
+		CC4407A6DBEB4B930030F5B8 /* Pods_CloverJobApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloverJobApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F51BCA7C8A86DE89115B6B /* Pods-CloverJobApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloverJobApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloverJobApplication/Pods-CloverJobApplication.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C2DE4B1903FC465A4EC607 /* Pods_CloverJobApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				60B14FF81FBCBA9C00542274 /* CloverJobApplication */,
 				60B14FF71FBCBA9C00542274 /* Products */,
+				65D82057E0EA65AB674B00CE /* Pods */,
+				FC72924965D8F393E2F7E373 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,34 @@
 		60B14FF81FBCBA9C00542274 /* CloverJobApplication */ = {
 			isa = PBXGroup;
 			children = (
+				60B1500D1FBCBC4A00542274 /* UIView+Anchors.swift */,
 				60B14FF91FBCBA9C00542274 /* AppDelegate.swift */,
-				60B14FFB1FBCBA9C00542274 /* ViewController.swift */,
-				60B14FFD1FBCBA9C00542274 /* Main.storyboard */,
+				60B14FFB1FBCBA9C00542274 /* LoginController.swift */,
+				60B69E731FBCFECC009CBABB /* Repo.swift */,
+				60B1500F1FBCD17400542274 /* ChatController.swift */,
 				60B150001FBCBA9C00542274 /* Assets.xcassets */,
-				60B150021FBCBA9C00542274 /* LaunchScreen.storyboard */,
 				60B150051FBCBA9C00542274 /* Info.plist */,
+				60B1500B1FBCBB5800542274 /* Splash.storyboard */,
+				60B150111FBCD27100542274 /* Constants.swift */,
 			);
 			path = CloverJobApplication;
+			sourceTree = "<group>";
+		};
+		65D82057E0EA65AB674B00CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0F51BCA7C8A86DE89115B6B /* Pods-CloverJobApplication.debug.xcconfig */,
+				7047858D5021578AA4FFEB2A /* Pods-CloverJobApplication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC72924965D8F393E2F7E373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4407A6DBEB4B930030F5B8 /* Pods_CloverJobApplication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60B150081FBCBA9C00542274 /* Build configuration list for PBXNativeTarget "CloverJobApplication" */;
 			buildPhases = (
+				9CDD737398C7747617FB4F05 /* [CP] Check Pods Manifest.lock */,
 				60B14FF21FBCBA9C00542274 /* Sources */,
 				60B14FF31FBCBA9C00542274 /* Frameworks */,
 				60B14FF41FBCBA9C00542274 /* Resources */,
+				DF2D298167736BB3B96E1A71 /* [CP] Embed Pods Frameworks */,
+				823BF1AF6293C68BFACB970F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,6 +126,7 @@
 		60B14FEE1FBCBA9B00542274 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Jakša Tomović";
@@ -123,44 +160,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60B150041FBCBA9C00542274 /* LaunchScreen.storyboard in Resources */,
 				60B150011FBCBA9C00542274 /* Assets.xcassets in Resources */,
-				60B14FFF1FBCBA9C00542274 /* Main.storyboard in Resources */,
+				60B1500C1FBCBB5800542274 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		823BF1AF6293C68BFACB970F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloverJobApplication/Pods-CloverJobApplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CDD737398C7747617FB4F05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloverJobApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF2D298167736BB3B96E1A71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CloverJobApplication/Pods-CloverJobApplication-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CRNotifications/CRNotifications.framework",
+				"${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CRNotifications.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableAlamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloverJobApplication/Pods-CloverJobApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		60B14FF21FBCBA9C00542274 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60B14FFC1FBCBA9C00542274 /* ViewController.swift in Sources */,
+				60B150121FBCD27100542274 /* Constants.swift in Sources */,
+				60B14FFC1FBCBA9C00542274 /* LoginController.swift in Sources */,
+				60B1500E1FBCBC4A00542274 /* UIView+Anchors.swift in Sources */,
+				60B69E741FBCFECC009CBABB /* Repo.swift in Sources */,
 				60B14FFA1FBCBA9C00542274 /* AppDelegate.swift in Sources */,
+				60B150101FBCD17400542274 /* ChatController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		60B14FFD1FBCBA9C00542274 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60B14FFE1FBCBA9C00542274 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		60B150021FBCBA9C00542274 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60B150031FBCBA9C00542274 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		60B150061FBCBA9C00542274 /* Debug */ = {
@@ -272,10 +351,13 @@
 		};
 		60B150091FBCBA9C00542274 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F51BCA7C8A86DE89115B6B /* Pods-CloverJobApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EC32T954D;
 				INFOPLIST_FILE = CloverJobApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tk.tomovic-jaksa.CloverJobApplication";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,10 +368,13 @@
 		};
 		60B1500A1FBCBA9C00542274 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7047858D5021578AA4FFEB2A /* Pods-CloverJobApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EC32T954D;
 				INFOPLIST_FILE = CloverJobApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tk.tomovic-jaksa.CloverJobApplication";
 				PRODUCT_NAME = "$(TARGET_NAME)";
